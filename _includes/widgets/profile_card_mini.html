@@ -36,7 +36,7 @@
 
                 <div class="row small">
                     <div class="col text-center">
-                        <a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}">
+                        <a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}" style="color: #000000;">
                             {{ site.data.profile.email | replace: "@", "(at)" }}
                         </a>
                     </div>
@@ -51,37 +51,37 @@
                         {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
                         {%- endif -%}
                         <a class="px-1 no-break" target="_blank" href="{{ gscholar_url }}">
-                            <i class="fab fa-google-scholar"></i>
+                            <i class="fab fa-google-scholar" style="color: #000000;"></i>
                         </a>
                         {% endif %}
                         
                         {% if site.data.profile.github %}
                         <a class="px-1 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
-                            <i class="fab fa-github"></i>
+                            <i class="fab fa-github" style="color: #000000;"></i>
                         </a>
                         {% endif %}
 
                         {% if site.data.profile.wechat_qrcode %}
                         <a class="px-1 no-break" data-toggle="modal" data-target="#modal-wechat">
-                            <i class="fab fa-weixin"></i>
+                            <i class="fab fa-weixin" style="color: #000000;"></i>
                         </a>
                         {% endif %}
 
                         {% if site.data.profile.twitter %}
                         <a class="px-1 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter" style="color: #000000;"></i>
                         </a>
                         {% endif %}
 
                         {% if site.data.profile.linkedin %}
                         <a class="px-1 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
-                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-linkedin" style="color: #000000;"></i>
                         </a>
                         {% endif %}
 
                         {% if site.data.profile.orcid %}
                         <a class="px-1 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
-                            <i class="fab fa-orcid"></i>
+                            <i class="fab fa-orcid" style="color: #000000;"></i>
                         </a>
                         {% endif %}
                     </div>
