@@ -54,7 +54,8 @@ education:
   - dept: Department of Computer Science and Engineering
     title: Ph.D. Candidate
     date: Mar. 2022 - present
-  - title: B.S. in Computer Science and Engineering
+  - dept: B.S. in Computer Science and Engineering
+    title:
     date: Mar. 2018 - Feb. 2022
 
 # experience:
@@ -73,6 +74,6 @@ education:
 
 teaching:
 - name: System Programming (M1522.000800)
-  date: 2024
+  date: Spring, 2024
 - name: Logic Design (M1522.000700)
-  date: 2020
+  date: Spring, 2020
