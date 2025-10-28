@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Sangwoo Kwon"
 
 positions:
-- name: Ph.D. Candidate
+- name: Ph.D. Student
 - name: Seoul National University
   # logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
@@ -52,7 +52,7 @@ education:
   logo: /assets/images/badges/SNU.png
   positions:
   - dept: Department of Computer Science and Engineering
-    title: Ph.D. Candidate
+    title: Ph.D. Student
     date: Mar. 2022 - present
   - dept: B.S. in Computer Science and Engineering
     title:
@@ -77,3 +77,7 @@ teaching:
   date: Spring, 2024
 - name: Logic Design (M1522.000700)
   date: Spring, 2020
+
+services:
+- name: Student Volunteer, International Symposium on Code Generation and Optimization (CGO)
+  date: 2022
