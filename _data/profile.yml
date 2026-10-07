@@ -81,3 +81,7 @@ teaching:
 services:
 - name: Student Volunteer, International Symposium on Code Generation and Optimization (CGO)
   date: 2022
+- name: Reviewer, Neural Information Processing Systems (NeurIPS)
+  date: 2026
+- name: Reviewer, Transactions on Architecture and Code Optimization (TACO)
+  date: 2026
